@@ -7,4 +7,5 @@ type Products struct {
 	Name string
 	Price float64 `valid:"range(1|100)~Price must be between 1 and 1000"`
 	SKU string  
+	
 }
